@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-eBanking" class="navigator-link">
+              <span class="suite-name border-failed">eBanking</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-eBanking" class="navigator-link ">
+                    <span>C:\Users\sabre\eclipse-workspace\eBankingv1\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-eBanking" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-eBanking" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-eBanking" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-eBanking" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-eBanking" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-eBanking" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-eBanking" class="hide-methods failed suite-eBanking"> (hide)</a> <!-- hide-methods failed suite-eBanking -->
+                      <a href="#" panel-name="suite-eBanking" class="show-methods failed suite-eBanking"> (show)</a> <!-- show-methods failed suite-eBanking -->
+                    </span>
+                    <div class="method-list-content failed suite-eBanking">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBanking" title="com.eBanking.Testcases.TC_NewCustomerDDT_003" class="method navigator-link" hash-for-method="NewCustomerDDT([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1])">NewCustomerDDT([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBanking" title="com.eBanking.Testcases.TC_NewCustomerDDT_003" class="method navigator-link" hash-for-method="NewCustomerDDT([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, ...)">NewCustomerDDT([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBanking" title="com.eBanking.Testcases.TC_NewCustomerDDT_003" class="method navigator-link" hash-for-method="NewCustomerDDT([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1])">NewCustomerDDT([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-eBanking -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-eBanking" class="hide-methods passed suite-eBanking"> (hide)</a> <!-- hide-methods passed suite-eBanking -->
+                      <a href="#" panel-name="suite-eBanking" class="show-methods passed suite-eBanking"> (show)</a> <!-- show-methods passed suite-eBanking -->
+                    </span>
+                    <div class="method-list-content passed suite-eBanking">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBanking" title="com.eBanking.Testcases.TC_NewCustomerDDT_003" class="method navigator-link" hash-for-method="NewCustomerDDT([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1])">NewCustomerDDT([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-eBanking -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-eBanking" class="panel eBanking">
+          <div class="suite-eBanking-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eBanking.Testcases.TC_NewCustomerDDT_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewCustomerDDT([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1])">
+                  </a> <!-- NewCustomerDDT([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1]) -->
+                  <span class="method-name">NewCustomerDDT</span>
+                  <span class="parameters">([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1])</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;addcustomerpage.php&quot;&gt;...&lt;/a&gt; is not clickable at point (120, 393). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://0b88444b8e719117adecc34e96b92aa8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html&quot; id=&quot;google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;&quot; height=&quot;&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; data-load-complete=&quot;true&quot; style=&quot;border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf62f8690d90ed73b64f11a6d264e784, clickElement {id=554106bc-bb50-43a7-a00f-39ba33da7ac1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50952/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [org.openqa.selenium.remote.RemoteWebElement@f3766ed3 -&gt; unknown locator]
+Session ID: cf62f8690d90ed73b64f11a6d264e784
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewCustomerDDT([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, ...)">
+                  </a> <!-- NewCustomerDDT([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, ...) -->
+                  <span class="method-name">NewCustomerDDT</span>
+                  <span class="parameters">([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, sabri12])</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=97.0.4692.99): Email Address Already Exist !!
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf62f8690d90ed73b64f11a6d264e784, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50952/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf62f8690d90ed73b64f11a6d264e784
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:411)
+	at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewCustomerDDT([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1])">
+                  </a> <!-- NewCustomerDDT([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1]) -->
+                  <span class="method-name">NewCustomerDDT</span>
+                  <span class="parameters">([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1])</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf62f8690d90ed73b64f11a6d264e784, clickElement {id=554106bc-bb50-43a7-a00f-39ba33da7ac1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50952/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf62f8690d90ed73b64f11a6d264e784)] -&gt; xpath: /html/body/div[3]/div/ul/li[2]/a]
+Session ID: cf62f8690d90ed73b64f11a6d264e784
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at com.eBanking.Pageobjects.NewCustomer.Clicknewcustomer(NewCustomer.java:122)
+	at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eBanking-class-failed -->
+          <div class="suite-eBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eBanking.Testcases.TC_NewCustomerDDT_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewCustomerDDT([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1])">
+                  </a> <!-- NewCustomerDDT([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1]) -->
+                  <span class="method-name">NewCustomerDDT</span>
+                  <span class="parameters">([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eBanking-class-passed -->
+        </div> <!-- panel eBanking -->
+        <div panel-name="test-xml-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sabre\eclipse-workspace\eBankingv1\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;eBanking&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.eBanking.Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;eBanking Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eBanking.Testcases.TC_NewCustomerDDT_003&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- eBanking Test --&gt;
+&lt;/suite&gt; &lt;!-- eBanking --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for eBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">eBanking Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for eBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for eBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_eBanking');
+function tableData_eBanking() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NewCustomerDDT')
+data.setCell(0, 2, 'com.eBanking.Testcases.TC_NewCustomerDDT_003')
+data.setCell(0, 3, 10385);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'NewCustomerDDT')
+data.setCell(1, 2, 'com.eBanking.Testcases.TC_NewCustomerDDT_003')
+data.setCell(1, 3, 8551);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NewCustomerDDT')
+data.setCell(2, 2, 'com.eBanking.Testcases.TC_NewCustomerDDT_003')
+data.setCell(2, 3, 2159);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'NewCustomerDDT')
+data.setCell(3, 2, 'com.eBanking.Testcases.TC_NewCustomerDDT_003')
+data.setCell(3, 3, 1259);
+window.suiteTableData['eBanking']= { tableData: data, tableDiv: 'times-div-eBanking'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-eBanking">
+              </div> <!-- times-div-eBanking -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for eBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-eBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eBanking.Testcases.TC_NewCustomerDDT_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">6069 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NewCustomerDDT([Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab@gmail.com, sab1])</span>
+                <span class="method-start">10118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NewCustomerDDT([Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji@gmail.com, aji1])</span>
+                <span class="method-start">12407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NewCustomerDDT([Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz@gmail.com, ruz1])</span>
+                <span class="method-start">14722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NewCustomerDDT([Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabr@gmail.com, ...)</span>
+                <span class="method-start">25114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">34529 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
