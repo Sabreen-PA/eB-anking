@@ -16,7 +16,6 @@ public class TC_LoginTest_001 extends BaseClass {
 	{
 		
 		
-	logger.info("url is opened");
 		LoginPage lp=new LoginPage(driver);
 		
 		lp.SetUsrname(username);

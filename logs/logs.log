@@ -303,3 +303,24 @@
 2022-02-01 19:07:41 INFO  eBanking:23 - usename is entered
 2022-02-01 19:07:41 INFO  eBanking:26 - password is entered
 2022-02-01 19:07:42 INFO  eBanking:29 - submit button is clicked
+2022-02-01 19:54:32 INFO  eBanking:62 - url is opened
+2022-02-01 19:54:32 INFO  eBanking:22 - usename is entered
+2022-02-01 19:54:32 INFO  eBanking:25 - password is entered
+2022-02-01 19:54:33 INFO  eBanking:28 - submit button is clicked
+2022-02-01 19:54:36 INFO  eBanking:62 - url is opened
+2022-02-01 19:54:39 INFO  eBanking:20 - username is provided
+2022-02-01 19:54:39 INFO  eBanking:23 - password is provided
+2022-02-01 19:54:39 INFO  eBanking:26 - submit button is clicked
+2022-02-01 19:54:42 INFO  eBanking:20 - username is provided
+2022-02-01 19:54:42 INFO  eBanking:23 - password is provided
+2022-02-01 19:54:42 INFO  eBanking:26 - submit button is clicked
+2022-02-01 19:54:43 INFO  eBanking:20 - username is provided
+2022-02-01 19:54:43 INFO  eBanking:23 - password is provided
+2022-02-01 19:54:44 INFO  eBanking:26 - submit button is clicked
+2022-02-01 19:54:44 INFO  eBanking:32 - test passed
+2022-02-01 19:54:44 INFO  eBanking:20 - username is provided
+2022-02-01 19:54:45 INFO  eBanking:23 - password is provided
+2022-02-01 19:54:45 INFO  eBanking:26 - submit button is clicked
+2022-02-01 19:54:46 INFO  eBanking:20 - username is provided
+2022-02-01 19:54:46 INFO  eBanking:23 - password is provided
+2022-02-01 19:54:46 INFO  eBanking:26 - submit button is clicked
