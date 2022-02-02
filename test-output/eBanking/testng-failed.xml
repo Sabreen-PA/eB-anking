@@ -7,14 +7,20 @@
   <test thread-count="5" name="eBanking Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.eBanking.Testcases.TC_NewCustomerDDT_003">
+      <class name="com.eBanking.Testcases.TC_LoginDDT_002">
         <methods>
           <include name="teardown"/>
-          <include name="login"/>
           <include name="setup"/>
-          <include name="NewCustomerDDT" invocation-numbers="0 1 3"/>
+          <include name="loginDDTTest" invocation-numbers="0 1 3 4"/>
         </methods>
-      </class> <!-- com.eBanking.Testcases.TC_NewCustomerDDT_003 -->
+      </class> <!-- com.eBanking.Testcases.TC_LoginDDT_002 -->
+      <class name="com.eBanking.Testcases.TC_LoginTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eBanking.Testcases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- eBanking Test(failed) -->
 </suite> <!-- Failed suite [eBanking] -->

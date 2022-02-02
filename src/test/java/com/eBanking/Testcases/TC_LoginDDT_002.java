@@ -17,12 +17,20 @@ public class TC_LoginDDT_002 extends BaseClass{
 		LoginPage lp=new LoginPage(driver);
 		
 		lp.SetUsrname(user);
+		logger.info("username is provided");
+		
 		lp.Setpassword(pwd);
+		logger.info("password is provided");
+
 		lp.Clicklogin();
+		logger.info("submit button is clicked");
+
 		
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
 			
 			Assert.assertTrue(true);
+			logger.info("test passed");
+
 			lp.Clicklogout();
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
@@ -30,6 +38,8 @@ public class TC_LoginDDT_002 extends BaseClass{
 		else {
 			
             Assert.assertTrue(false);
+    		logger.info("test failed");
+
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
 			
@@ -39,8 +49,7 @@ public class TC_LoginDDT_002 extends BaseClass{
 	}
 	@DataProvider(name="logindata")
 	String[][] getData() throws IOException {
-		//C:\Users\sabre\eclipse-workspace\eBankingv1\src\test\java\com\eBanking\Testdata
-		String path="C:\\Users\\sabre\\eclipse-workspace\\eBankingv1\\src\\test\\java\\com\\eBanking\\Testdata\\Logindata.xlsx";
+		String path=System.getProperty("user.dir")+"\\src\\test\\java\\com\\eBanking\\Testdata\\Logindata.xlsx";
 		int rowcount=XLUtils.getRowCount(path,"Sheet1");
 		int cellcount=XLUtils.getCellCount(path,"Sheet1" , 1);
 		

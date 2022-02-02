@@ -59,6 +59,8 @@ public class BaseClass {
 		
 			 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(baseurl);
+		logger.info("url is opened");
+
 	}
 	
 	public static void CaptureScreen(String tname) throws IOException

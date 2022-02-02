@@ -295,3 +295,11 @@
 2022-01-31 13:22:57 INFO  eBanking:37 - submit button is clicked
 2022-01-31 13:23:06 INFO  eBanking:55 - 06/16/2017
 2022-01-31 13:23:17 INFO  eBanking:55 - 12/23/1990
+2022-02-01 19:05:38 INFO  eBanking:19 - url is opened
+2022-02-01 19:05:38 INFO  eBanking:23 - usename is entered
+2022-02-01 19:05:39 INFO  eBanking:26 - password is entered
+2022-02-01 19:05:39 INFO  eBanking:29 - submit button is clicked
+2022-02-01 19:07:40 INFO  eBanking:19 - url is opened
+2022-02-01 19:07:41 INFO  eBanking:23 - usename is entered
+2022-02-01 19:07:41 INFO  eBanking:26 - password is entered
+2022-02-01 19:07:42 INFO  eBanking:29 - submit button is clicked

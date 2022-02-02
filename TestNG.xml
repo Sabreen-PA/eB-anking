@@ -9,8 +9,8 @@
   
 <parameter name="browser" value="chrome" />
     <classes>
-      <class name="com.eBanking.Testcases.loginDDTTest"/>
-             <class name="com.eBanking.Testcases.loginTest"/>
+      <class name="com.eBanking.Testcases.TC_LoginTest_001"/>
+             <class name="com.eBanking.Testcases.TC_LoginDDT_002"/>
       
     </classes>
     
