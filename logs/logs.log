@@ -324,3 +324,340 @@
 2022-02-01 19:54:46 INFO  eBanking:20 - username is provided
 2022-02-01 19:54:46 INFO  eBanking:23 - password is provided
 2022-02-01 19:54:46 INFO  eBanking:26 - submit button is clicked
+2022-02-02 15:27:32 INFO  eBanking:62 - url is opened
+2022-02-02 15:27:32 INFO  eBanking:26 - url is opened
+2022-02-02 15:27:32 INFO  eBanking:31 - usename is entered
+2022-02-02 15:27:32 INFO  eBanking:34 - password is entered
+2022-02-02 15:27:34 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:38:35 INFO  eBanking:63 - url is opened
+2022-02-02 15:38:35 INFO  eBanking:26 - url is opened
+2022-02-02 15:38:35 INFO  eBanking:31 - usename is entered
+2022-02-02 15:38:35 INFO  eBanking:34 - password is entered
+2022-02-02 15:38:36 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:38:45 INFO  eBanking:55 - 01/13/1986
+2022-02-02 15:38:56 INFO  eBanking:55 - 06/16/2017
+2022-02-02 15:39:05 INFO  eBanking:55 - 12/23/1990
+2022-02-02 15:41:26 INFO  eBanking:63 - url is opened
+2022-02-02 15:41:26 INFO  eBanking:26 - url is opened
+2022-02-02 15:41:26 INFO  eBanking:31 - usename is entered
+2022-02-02 15:41:26 INFO  eBanking:34 - password is entered
+2022-02-02 15:41:27 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:49:13 INFO  eBanking:63 - url is opened
+2022-02-02 15:49:13 INFO  eBanking:26 - url is opened
+2022-02-02 15:49:13 INFO  eBanking:31 - usename is entered
+2022-02-02 15:49:14 INFO  eBanking:34 - password is entered
+2022-02-02 15:49:15 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:51:23 INFO  eBanking:63 - url is opened
+2022-02-02 15:51:23 INFO  eBanking:26 - url is opened
+2022-02-02 15:51:24 INFO  eBanking:31 - usename is entered
+2022-02-02 15:51:24 INFO  eBanking:34 - password is entered
+2022-02-02 15:51:26 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:51:37 INFO  eBanking:55 - 05/29/1992
+2022-02-02 15:53:37 INFO  eBanking:63 - url is opened
+2022-02-02 15:53:37 INFO  eBanking:26 - url is opened
+2022-02-02 15:53:38 INFO  eBanking:31 - usename is entered
+2022-02-02 15:53:38 INFO  eBanking:34 - password is entered
+2022-02-02 15:53:42 INFO  eBanking:37 - submit button is clicked
+2022-02-02 15:58:30 INFO  eBanking:63 - url is opened
+2022-02-02 15:58:30 INFO  eBanking:26 - url is opened
+2022-02-02 15:58:31 INFO  eBanking:31 - usename is entered
+2022-02-02 15:58:32 INFO  eBanking:34 - password is entered
+2022-02-02 15:58:34 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:02:56 INFO  eBanking:63 - url is opened
+2022-02-02 16:02:56 INFO  eBanking:26 - url is opened
+2022-02-02 16:02:56 INFO  eBanking:31 - usename is entered
+2022-02-02 16:02:57 INFO  eBanking:34 - password is entered
+2022-02-02 16:02:59 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:06:07 INFO  eBanking:63 - url is opened
+2022-02-02 16:06:07 INFO  eBanking:26 - url is opened
+2022-02-02 16:06:08 INFO  eBanking:31 - usename is entered
+2022-02-02 16:06:08 INFO  eBanking:34 - password is entered
+2022-02-02 16:06:10 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:16:48 INFO  eBanking:63 - url is opened
+2022-02-02 16:16:48 INFO  eBanking:26 - url is opened
+2022-02-02 16:16:49 INFO  eBanking:31 - usename is entered
+2022-02-02 16:16:49 INFO  eBanking:34 - password is entered
+2022-02-02 16:16:50 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:19:26 INFO  eBanking:63 - url is opened
+2022-02-02 16:19:27 INFO  eBanking:26 - url is opened
+2022-02-02 16:19:27 INFO  eBanking:31 - usename is entered
+2022-02-02 16:19:27 INFO  eBanking:34 - password is entered
+2022-02-02 16:19:28 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:25:18 INFO  eBanking:63 - url is opened
+2022-02-02 16:25:18 INFO  eBanking:26 - url is opened
+2022-02-02 16:25:18 INFO  eBanking:31 - usename is entered
+2022-02-02 16:25:18 INFO  eBanking:34 - password is entered
+2022-02-02 16:25:19 INFO  eBanking:37 - submit button is clicked
+2022-02-02 16:32:49 INFO  eBanking:63 - url is opened
+2022-02-02 16:32:49 INFO  eBanking:26 - url is opened
+2022-02-02 16:32:50 INFO  eBanking:31 - usename is entered
+2022-02-02 16:32:50 INFO  eBanking:34 - password is entered
+2022-02-02 16:32:52 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:35:19 INFO  eBanking:63 - url is opened
+2022-02-02 17:35:19 INFO  eBanking:26 - url is opened
+2022-02-02 17:35:19 INFO  eBanking:31 - usename is entered
+2022-02-02 17:35:19 INFO  eBanking:34 - password is entered
+2022-02-02 17:35:20 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:38:34 INFO  eBanking:63 - url is opened
+2022-02-02 17:38:34 INFO  eBanking:26 - url is opened
+2022-02-02 17:38:34 INFO  eBanking:31 - usename is entered
+2022-02-02 17:38:35 INFO  eBanking:34 - password is entered
+2022-02-02 17:38:35 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:42:43 INFO  eBanking:63 - url is opened
+2022-02-02 17:42:43 INFO  eBanking:26 - url is opened
+2022-02-02 17:42:44 INFO  eBanking:31 - usename is entered
+2022-02-02 17:42:45 INFO  eBanking:34 - password is entered
+2022-02-02 17:42:46 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:47:19 INFO  eBanking:63 - url is opened
+2022-02-02 17:47:19 INFO  eBanking:26 - url is opened
+2022-02-02 17:47:20 INFO  eBanking:31 - usename is entered
+2022-02-02 17:47:20 INFO  eBanking:34 - password is entered
+2022-02-02 17:47:22 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:50:03 INFO  eBanking:63 - url is opened
+2022-02-02 17:50:03 INFO  eBanking:26 - url is opened
+2022-02-02 17:50:03 INFO  eBanking:31 - usename is entered
+2022-02-02 17:50:03 INFO  eBanking:34 - password is entered
+2022-02-02 17:50:04 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:52:14 INFO  eBanking:63 - url is opened
+2022-02-02 17:52:14 INFO  eBanking:26 - url is opened
+2022-02-02 17:52:14 INFO  eBanking:31 - usename is entered
+2022-02-02 17:52:15 INFO  eBanking:34 - password is entered
+2022-02-02 17:52:16 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:54:09 INFO  eBanking:63 - url is opened
+2022-02-02 17:54:09 INFO  eBanking:26 - url is opened
+2022-02-02 17:54:10 INFO  eBanking:31 - usename is entered
+2022-02-02 17:54:10 INFO  eBanking:34 - password is entered
+2022-02-02 17:54:11 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:54:14 INFO  eBanking:58 - 05/29/1992
+2022-02-02 17:57:36 INFO  eBanking:63 - url is opened
+2022-02-02 17:57:36 INFO  eBanking:26 - url is opened
+2022-02-02 17:57:36 INFO  eBanking:31 - usename is entered
+2022-02-02 17:57:36 INFO  eBanking:34 - password is entered
+2022-02-02 17:57:37 INFO  eBanking:37 - submit button is clicked
+2022-02-02 17:57:41 INFO  eBanking:58 - 05/29/1992
+2022-02-02 18:04:35 INFO  eBanking:63 - url is opened
+2022-02-02 18:04:35 INFO  eBanking:27 - url is opened
+2022-02-02 18:04:36 INFO  eBanking:32 - usename is entered
+2022-02-02 18:04:36 INFO  eBanking:35 - password is entered
+2022-02-02 18:04:37 INFO  eBanking:38 - submit button is clicked
+2022-02-02 18:04:41 INFO  eBanking:58 - 05/29/1992
+2022-02-02 18:32:44 INFO  eBanking:63 - url is opened
+2022-02-02 18:32:44 INFO  eBanking:25 - url is opened
+2022-02-02 18:32:45 INFO  eBanking:30 - usename is entered
+2022-02-02 18:32:45 INFO  eBanking:33 - password is entered
+2022-02-02 18:32:46 INFO  eBanking:36 - submit button is clicked
+2022-02-02 18:32:50 INFO  eBanking:56 - 05/29/1992
+2022-02-02 18:51:33 INFO  eBanking:63 - url is opened
+2022-02-02 18:51:34 INFO  eBanking:25 - url is opened
+2022-02-02 18:51:34 INFO  eBanking:30 - usename is entered
+2022-02-02 18:51:34 INFO  eBanking:33 - password is entered
+2022-02-02 18:51:36 INFO  eBanking:36 - submit button is clicked
+2022-02-02 18:51:41 INFO  eBanking:56 - 05/29/1992
+2022-02-02 19:03:00 INFO  eBanking:63 - url is opened
+2022-02-02 19:03:00 INFO  eBanking:25 - url is opened
+2022-02-02 19:03:01 INFO  eBanking:30 - usename is entered
+2022-02-02 19:03:01 INFO  eBanking:33 - password is entered
+2022-02-02 19:03:01 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:03:06 INFO  eBanking:56 - 05/29/1992
+2022-02-02 19:04:58 INFO  eBanking:63 - url is opened
+2022-02-02 19:04:58 INFO  eBanking:25 - url is opened
+2022-02-02 19:04:58 INFO  eBanking:30 - usename is entered
+2022-02-02 19:04:58 INFO  eBanking:33 - password is entered
+2022-02-02 19:04:59 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:05:03 INFO  eBanking:56 - 05/29/1992
+2022-02-02 19:07:28 INFO  eBanking:63 - url is opened
+2022-02-02 19:07:28 INFO  eBanking:25 - url is opened
+2022-02-02 19:07:29 INFO  eBanking:30 - usename is entered
+2022-02-02 19:07:29 INFO  eBanking:33 - password is entered
+2022-02-02 19:07:29 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:07:35 INFO  eBanking:56 - 05/29/1992
+2022-02-02 19:10:24 INFO  eBanking:63 - url is opened
+2022-02-02 19:10:24 INFO  eBanking:25 - url is opened
+2022-02-02 19:10:24 INFO  eBanking:30 - usename is entered
+2022-02-02 19:10:24 INFO  eBanking:33 - password is entered
+2022-02-02 19:10:25 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:10:30 INFO  eBanking:56 - 05/29/1992
+2022-02-02 19:14:20 INFO  eBanking:63 - url is opened
+2022-02-02 19:14:20 INFO  eBanking:25 - url is opened
+2022-02-02 19:14:21 INFO  eBanking:30 - usename is entered
+2022-02-02 19:14:21 INFO  eBanking:33 - password is entered
+2022-02-02 19:14:22 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:14:26 INFO  eBanking:57 - 05/29/1992
+2022-02-02 19:17:30 INFO  eBanking:63 - url is opened
+2022-02-02 19:17:30 INFO  eBanking:25 - url is opened
+2022-02-02 19:17:30 INFO  eBanking:30 - usename is entered
+2022-02-02 19:17:30 INFO  eBanking:33 - password is entered
+2022-02-02 19:17:31 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:17:36 INFO  eBanking:63 - 05/29/1992
+2022-02-02 19:18:00 INFO  eBanking:63 - 01/13/1986
+2022-02-02 19:18:24 INFO  eBanking:63 - 06/16/2017
+2022-02-02 19:18:49 INFO  eBanking:63 - 12/23/1990
+2022-02-02 19:20:26 INFO  eBanking:63 - url is opened
+2022-02-02 19:20:26 INFO  eBanking:25 - url is opened
+2022-02-02 19:20:27 INFO  eBanking:30 - usename is entered
+2022-02-02 19:20:27 INFO  eBanking:33 - password is entered
+2022-02-02 19:20:28 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:20:32 INFO  eBanking:63 - 05/29/1992
+2022-02-02 19:20:58 INFO  eBanking:63 - 01/13/1986
+2022-02-02 19:21:26 INFO  eBanking:63 - 06/16/2017
+2022-02-02 19:21:53 INFO  eBanking:63 - 12/23/1990
+2022-02-02 19:23:08 INFO  eBanking:63 - url is opened
+2022-02-02 19:23:08 INFO  eBanking:25 - url is opened
+2022-02-02 19:23:09 INFO  eBanking:30 - usename is entered
+2022-02-02 19:23:09 INFO  eBanking:33 - password is entered
+2022-02-02 19:23:09 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:23:15 INFO  eBanking:63 - 05/29/1992
+2022-02-02 19:23:21 INFO  eBanking:63 - 01/13/1986
+2022-02-02 19:23:27 INFO  eBanking:63 - 06/16/2017
+2022-02-02 19:23:34 INFO  eBanking:63 - 12/23/1990
+2022-02-02 19:35:47 INFO  eBanking:60 - url is opened
+2022-02-02 19:35:47 INFO  eBanking:25 - url is opened
+2022-02-02 19:35:47 INFO  eBanking:30 - usename is entered
+2022-02-02 19:35:47 INFO  eBanking:33 - password is entered
+2022-02-02 19:35:48 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:38:13 INFO  eBanking:60 - url is opened
+2022-02-02 19:38:13 INFO  eBanking:25 - url is opened
+2022-02-02 19:38:13 INFO  eBanking:30 - usename is entered
+2022-02-02 19:38:14 INFO  eBanking:33 - password is entered
+2022-02-02 19:38:15 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:39:24 INFO  eBanking:60 - url is opened
+2022-02-02 19:39:24 INFO  eBanking:25 - url is opened
+2022-02-02 19:39:24 INFO  eBanking:30 - usename is entered
+2022-02-02 19:39:24 INFO  eBanking:33 - password is entered
+2022-02-02 19:39:25 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:40:20 INFO  eBanking:60 - url is opened
+2022-02-02 19:40:20 INFO  eBanking:25 - url is opened
+2022-02-02 19:40:21 INFO  eBanking:30 - usename is entered
+2022-02-02 19:40:21 INFO  eBanking:33 - password is entered
+2022-02-02 19:40:22 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:40:27 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:40:28 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:40:30 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:40:32 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:40:32 INFO  eBanking:79 - test is passed
+2022-02-02 19:40:34 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:40:35 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:40:35 INFO  eBanking:79 - test is passed
+2022-02-02 19:40:38 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:40:42 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:40:42 INFO  eBanking:79 - test is passed
+2022-02-02 19:41:20 INFO  eBanking:60 - url is opened
+2022-02-02 19:41:20 INFO  eBanking:25 - url is opened
+2022-02-02 19:41:20 INFO  eBanking:30 - usename is entered
+2022-02-02 19:41:20 INFO  eBanking:33 - password is entered
+2022-02-02 19:41:22 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:41:27 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:41:30 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:41:30 INFO  eBanking:79 - test is passed
+2022-02-02 19:41:31 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:41:34 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:41:34 INFO  eBanking:79 - test is passed
+2022-02-02 19:41:35 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:41:36 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:41:36 INFO  eBanking:79 - test is passed
+2022-02-02 19:41:38 INFO  eBanking:71 - Credentials are entered
+2022-02-02 19:41:39 INFO  eBanking:74 - submit button is clicked
+2022-02-02 19:41:39 INFO  eBanking:79 - test is passed
+2022-02-02 19:43:48 INFO  eBanking:60 - url is opened
+2022-02-02 19:43:48 INFO  eBanking:22 - usename is entered
+2022-02-02 19:43:48 INFO  eBanking:25 - password is entered
+2022-02-02 19:43:49 INFO  eBanking:28 - submit button is clicked
+2022-02-02 19:43:55 INFO  eBanking:60 - url is opened
+2022-02-02 19:43:55 INFO  eBanking:25 - url is opened
+2022-02-02 19:43:55 INFO  eBanking:30 - usename is entered
+2022-02-02 19:43:55 INFO  eBanking:33 - password is entered
+2022-02-02 19:43:56 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:44:00 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:44:01 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:44:01 INFO  eBanking:78 - test is passed
+2022-02-02 19:44:03 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:44:07 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:44:07 INFO  eBanking:78 - test is passed
+2022-02-02 19:44:09 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:44:10 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:44:10 INFO  eBanking:78 - test is passed
+2022-02-02 19:44:11 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:44:14 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:44:14 INFO  eBanking:78 - test is passed
+2022-02-02 19:45:25 INFO  eBanking:60 - url is opened
+2022-02-02 19:45:25 INFO  eBanking:22 - usename is entered
+2022-02-02 19:45:25 INFO  eBanking:25 - password is entered
+2022-02-02 19:45:26 INFO  eBanking:28 - submit button is clicked
+2022-02-02 19:45:29 INFO  eBanking:60 - url is opened
+2022-02-02 19:45:29 INFO  eBanking:25 - url is opened
+2022-02-02 19:45:30 INFO  eBanking:30 - usename is entered
+2022-02-02 19:45:30 INFO  eBanking:33 - password is entered
+2022-02-02 19:45:30 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:45:35 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:45:36 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:45:39 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:45:42 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:45:42 INFO  eBanking:78 - test is passed
+2022-02-02 19:45:43 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:45:45 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:45:45 INFO  eBanking:78 - test is passed
+2022-02-02 19:45:46 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:45:47 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:45:47 INFO  eBanking:78 - test is passed
+2022-02-02 19:49:46 INFO  eBanking:60 - url is opened
+2022-02-02 19:49:47 INFO  eBanking:22 - usename is entered
+2022-02-02 19:49:47 INFO  eBanking:25 - password is entered
+2022-02-02 19:49:48 INFO  eBanking:28 - submit button is clicked
+2022-02-02 19:49:54 INFO  eBanking:60 - url is opened
+2022-02-02 19:49:54 INFO  eBanking:25 - url is opened
+2022-02-02 19:49:54 INFO  eBanking:30 - usename is entered
+2022-02-02 19:49:54 INFO  eBanking:33 - password is entered
+2022-02-02 19:49:55 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:49:59 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:50:02 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:50:02 INFO  eBanking:78 - test is passed
+2022-02-02 19:50:04 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:50:04 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:50:07 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:50:09 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:50:09 INFO  eBanking:78 - test is passed
+2022-02-02 19:50:10 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:50:12 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:50:12 INFO  eBanking:78 - test is passed
+2022-02-02 19:51:53 INFO  eBanking:60 - url is opened
+2022-02-02 19:51:53 INFO  eBanking:22 - usename is entered
+2022-02-02 19:51:53 INFO  eBanking:25 - password is entered
+2022-02-02 19:51:54 INFO  eBanking:28 - submit button is clicked
+2022-02-02 19:51:58 INFO  eBanking:60 - url is opened
+2022-02-02 19:51:58 INFO  eBanking:25 - url is opened
+2022-02-02 19:51:58 INFO  eBanking:30 - usename is entered
+2022-02-02 19:51:58 INFO  eBanking:33 - password is entered
+2022-02-02 19:51:59 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:52:05 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:52:06 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:52:09 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:52:11 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:52:11 INFO  eBanking:78 - test is passed
+2022-02-02 19:52:12 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:52:15 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:52:15 INFO  eBanking:78 - test is passed
+2022-02-02 19:52:16 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:52:19 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:52:19 INFO  eBanking:78 - test is passed
+2022-02-02 19:54:35 INFO  eBanking:60 - url is opened
+2022-02-02 19:54:35 INFO  eBanking:22 - usename is entered
+2022-02-02 19:54:35 INFO  eBanking:25 - password is entered
+2022-02-02 19:54:36 INFO  eBanking:28 - submit button is clicked
+2022-02-02 19:54:36 INFO  eBanking:32 - test is passed
+2022-02-02 19:54:41 INFO  eBanking:60 - url is opened
+2022-02-02 19:54:41 INFO  eBanking:25 - url is opened
+2022-02-02 19:54:41 INFO  eBanking:30 - usename is entered
+2022-02-02 19:54:41 INFO  eBanking:33 - password is entered
+2022-02-02 19:54:42 INFO  eBanking:36 - submit button is clicked
+2022-02-02 19:54:47 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:54:49 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:54:49 INFO  eBanking:78 - test is passed
+2022-02-02 19:54:51 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:54:53 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:54:53 INFO  eBanking:78 - test is passed
+2022-02-02 19:54:54 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:54:56 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:54:56 INFO  eBanking:78 - test is passed
+2022-02-02 19:54:58 INFO  eBanking:70 - Credentials are entered
+2022-02-02 19:55:01 INFO  eBanking:73 - submit button is clicked
+2022-02-02 19:55:01 INFO  eBanking:78 - test is passed

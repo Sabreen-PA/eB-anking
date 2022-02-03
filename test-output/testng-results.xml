@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T19:07:05 EST" name="eBanking" finished-at="2022-02-01T19:07:57 EST" duration-ms="51836">
+  <suite started-at="2022-02-02T19:51:41 EST" name="eBanking" finished-at="2022-02-02T19:52:19 EST" duration-ms="38823">
     <groups>
     </groups>
-    <test started-at="2022-02-01T19:07:05 EST" name="eBanking Test" finished-at="2022-02-01T19:07:57 EST" duration-ms="51836">
+    <test started-at="2022-02-02T19:51:41 EST" name="eBanking Test" finished-at="2022-02-02T19:52:19 EST" duration-ms="38823">
       <class name="com.eBanking.Testcases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@223191a6]" started-at="2022-02-01T19:07:05 EST" name="setup" finished-at="2022-02-01T19:07:40 EST" duration-ms="34840" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@49139829]" started-at="2022-02-02T19:51:41 EST" name="setup" finished-at="2022-02-02T19:51:53 EST" duration-ms="11461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,20 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@223191a6]" started-at="2022-02-01T19:07:40 EST" name="loginTest" finished-at="2022-02-01T19:07:42 EST" duration-ms="1802" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@49139829]" started-at="2022-02-02T19:51:53 EST" name="loginTest" finished-at="2022-02-02T19:51:54 EST" duration-ms="1669" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Guru99 Bank Manager HomePage44] but found [Guru99 Bank Manager HomePage]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Guru99 Bank Manager HomePage44] but found [Guru99 Bank Manager HomePage]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.eBanking.Testcases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:31)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.eBanking.Testcases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,13 +64,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@223191a6]" started-at="2022-02-01T19:07:42 EST" name="teardown" finished-at="2022-02-01T19:07:42 EST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eBanking.Testcases.TC_LoginTest_001@49139829]" started-at="2022-02-02T19:51:55 EST" name="teardown" finished-at="2022-02-02T19:51:55 EST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.eBanking.Testcases.TC_LoginTest_001 -->
-      <class name="com.eBanking.Testcases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:42 EST" name="setup" finished-at="2022-02-01T19:07:45 EST" duration-ms="2320" status="PASS">
+      <class name="com.eBanking.Testcases.TC_NewCustomerDDT_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:51:55 EST" name="setup" finished-at="2022-02-02T19:51:58 EST" duration-ms="2882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,39 +81,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:46 EST" name="loginDDTTest" data-provider="logindata" finished-at="2022-02-01T19:07:47 EST" duration-ms="1146" status="FAIL">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:51:58 EST" name="login" finished-at="2022-02-02T19:51:59 EST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="NewCustomerDDT([Ljava.lang.String;)[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:52:01 EST" name="NewCustomerDDT" data-provider="customerdata" finished-at="2022-02-02T19:52:06 EST" duration-ms="5212" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[MGbhb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adf345c]]>
+                <![CDATA[[Ljava.lang.String;@ac4915e]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
+              <![CDATA[unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=97.0.4692.99): Customer could not be added !!
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41]]>
+Command: [7fb54943aa6d4079a7c9b21c2871980f, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54311/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fb54943aa6d4079a7c9b21c2871980f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=97.0.4692.99): Customer could not be added !!
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41
+Command: [7fb54943aa6d4079a7c9b21c2871980f, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54311/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fb54943aa6d4079a7c9b21c2871980f
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
@@ -124,8 +121,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:23)
+at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:411)
+at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,259 +156,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDDTTest -->
-        <test-method signature="loginDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:50 EST" name="loginDDTTest" data-provider="logindata" finished-at="2022-02-01T19:07:51 EST" duration-ms="685" status="FAIL">
+        </test-method> <!-- NewCustomerDDT -->
+        <test-method signature="NewCustomerDDT([Ljava.lang.String;)[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:52:07 EST" name="NewCustomerDDT" data-provider="customerdata" finished-at="2022-02-02T19:52:11 EST" duration-ms="3991" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[NMJyuj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123dhg]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:23)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDDTTest -->
-        <test-method signature="loginDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:52 EST" name="loginDDTTest" data-provider="logindata" finished-at="2022-02-01T19:07:54 EST" duration-ms="1821" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr381540]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[setedAs]]>
+                <![CDATA[[Ljava.lang.String;@10fb4575]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDDTTest -->
-        <test-method signature="loginDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:54 EST" name="loginDDTTest" data-provider="logindata" finished-at="2022-02-01T19:07:54 EST" duration-ms="544" status="FAIL">
+        </test-method> <!-- NewCustomerDDT -->
+        <test-method signature="NewCustomerDDT([Ljava.lang.String;)[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:52:11 EST" name="NewCustomerDDT" data-provider="customerdata" finished-at="2022-02-02T19:52:15 EST" duration-ms="3896" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[vvhbh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[23dfcgv]]>
+                <![CDATA[[Ljava.lang.String;@7cc2c551]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:23)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDDTTest -->
-        <test-method signature="loginDDTTest(java.lang.String,java.lang.String)[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:55 EST" name="loginDDTTest" data-provider="logindata" finished-at="2022-02-01T19:07:56 EST" duration-ms="471" status="FAIL">
+        </test-method> <!-- NewCustomerDDT -->
+        <test-method signature="NewCustomerDDT([Ljava.lang.String;)[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:52:15 EST" name="NewCustomerDDT" data-provider="customerdata" finished-at="2022-02-02T19:52:19 EST" duration-ms="4099" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chhnjkn]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12343dffg]]>
+                <![CDATA[[Ljava.lang.String;@d84b3a2]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2797ecb9a2f622a906f8380bd2c61c41, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56763/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2797ecb9a2f622a906f8380bd2c61c41
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:23)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDDTTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eBanking.Testcases.TC_LoginDDT_002@1a482e36]" started-at="2022-02-01T19:07:56 EST" name="teardown" finished-at="2022-02-01T19:07:57 EST" duration-ms="223" status="PASS">
+        </test-method> <!-- NewCustomerDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eBanking.Testcases.TC_NewCustomerDDT_003@49e53c76]" started-at="2022-02-02T19:52:19 EST" name="teardown" finished-at="2022-02-02T19:52:19 EST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.eBanking.Testcases.TC_LoginDDT_002 -->
+      </class> <!-- com.eBanking.Testcases.TC_NewCustomerDDT_003 -->
     </test> <!-- eBanking Test -->
   </suite> <!-- eBanking -->
 </testng-results>

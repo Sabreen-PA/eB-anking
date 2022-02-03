@@ -5,10 +5,7 @@ package com.eBanking.Testcases;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -57,8 +54,9 @@ public class BaseClass {
 			 driver = new ChromeDriver(opt);
 		}
 		
-			 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(baseurl);
+		 //driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+
 		logger.info("url is opened");
 
 	}

@@ -9,94 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">eBanking</th></tr>
-<tr><td><a href="#t0">eBanking Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">24,602</td><td></td><td></td></tr>
+<tr><td><a href="#t0">eBanking Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,322</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eBanking Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.eBanking.Testcases.TC_LoginDDT_002</td><td><a href="#m0">loginDDTTest</a></td><td rowspan="4">1643763286018</td><td rowspan="4">469</td></tr><tr class="failedeven"><td><a href="#m1">loginDDTTest</a></td></tr><tr class="failedeven"><td><a href="#m2">loginDDTTest</a></td></tr><tr class="failedeven"><td><a href="#m3">loginDDTTest</a></td></tr><tr class="failedodd"><td rowspan="1">com.eBanking.Testcases.TC_LoginTest_001</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1643763272622</td><td rowspan="1">1063</td></tr><tr><th colspan="4">eBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.eBanking.Testcases.TC_LoginDDT_002</td><td><a href="#m5">loginDDTTest</a></td><td rowspan="1">1643763283384</td><td rowspan="1">1517</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.eBanking.Testcases.TC_LoginTest_001</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1643849675355</td><td rowspan="1">1242</td></tr><tr class="passedodd"><td rowspan="4">com.eBanking.Testcases.TC_NewCustomerDDT_003</td><td><a href="#m1">NewCustomerDDT</a></td><td rowspan="4">1643849690004</td><td rowspan="4">3467</td></tr><tr class="passedodd"><td><a href="#m2">NewCustomerDDT</a></td></tr><tr class="passedodd"><td><a href="#m3">NewCustomerDDT</a></td></tr><tr class="passedodd"><td><a href="#m4">NewCustomerDDT</a></td></tr></tbody>
 </table>
-<h2>eBanking Test</h2><h3 id="m0">com.eBanking.Testcases.TC_LoginDDT_002#loginDDTTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chhnjkn</td><td>12343dffg</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d6a511269f488e7e02ea7a66b7caaa15, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57218/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d6a511269f488e7e02ea7a66b7caaa15
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-	at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.eBanking.Testcases.TC_LoginDDT_002#loginDDTTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>NMJyuj</td><td>123dhg</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d6a511269f488e7e02ea7a66b7caaa15, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57218/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d6a511269f488e7e02ea7a66b7caaa15
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-	at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.eBanking.Testcases.TC_LoginDDT_002#loginDDTTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>vvhbh</td><td>23dfcgv</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d6a511269f488e7e02ea7a66b7caaa15, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57218/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d6a511269f488e7e02ea7a66b7caaa15
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-	at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.eBanking.Testcases.TC_LoginDDT_002#loginDDTTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>MGbhb</td><td>adf345c</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=97.0.4692.99): User or Password is not valid
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d6a511269f488e7e02ea7a66b7caaa15, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57218/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d6a511269f488e7e02ea7a66b7caaa15
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
-	at com.eBanking.Testcases.TC_LoginDDT_002.loginDDTTest(TC_LoginDDT_002.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.eBanking.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Guru99 Bank Manager HomePage44] but found [Guru99 Bank Manager HomePage]
-	at com.eBanking.Testcases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.eBanking.Testcases.TC_LoginDDT_002#loginDDTTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr381540</td><td>setedAs</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>eBanking Test</h2><h3 id="m0">com.eBanking.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji1]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz1]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabri12]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab1]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

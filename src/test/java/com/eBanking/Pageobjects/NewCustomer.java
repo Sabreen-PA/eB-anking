@@ -73,9 +73,9 @@ public class NewCustomer {
 		
 		
 	public void Dob(String DateofBirth) throws InterruptedException {
-	dob.sendKeys("05");
-	dob.sendKeys("29");
-	dob.sendKeys("1992");
+	dob.sendKeys(DateofBirth);
+	//dob.sendKeys("29");
+	//dob.sendKeys("1992");
 	
 	}	
 	
@@ -106,6 +106,7 @@ public class NewCustomer {
 	}
 	
 	public void SetEmail(String email) {
+		
 		emailid.sendKeys(email);
 		
 	}

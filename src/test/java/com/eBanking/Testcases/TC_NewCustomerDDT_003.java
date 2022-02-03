@@ -1,21 +1,20 @@
 package com.eBanking.Testcases;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.eBanking.Pageobjects.LoginPage;
 import com.eBanking.Pageobjects.NewCustomer;
 import com.eBanking.Utilities.XLUtils;
+
+import net.bytebuddy.utility.RandomString;
 
 public class TC_NewCustomerDDT_003 extends BaseClass{
 	
@@ -43,38 +42,49 @@ public class TC_NewCustomerDDT_003 extends BaseClass{
     NewCustomer cust=new NewCustomer(driver);
 	
 	cust.Clicknewcustomer();
+	try {
+	List<WebElement> iframes = driver.findElements(By.tagName("iframe"));
+	if(iframes.size()>0) {
+WebElement iframe=driver.findElement(By.id("google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0"));
 
-	driver.switchTo().activeElement().click();
-	driver.navigate().back();
+driver.switchTo().frame(iframe).navigate().refresh();
+cust.Clicknewcustomer();
+	}
+	}
+	catch(Exception e)
+	{
+	e.printStackTrace();	
+	}
 	
-	//driver.switchTo().defaultContent();
-	cust.Clicknewcustomer();
 	cust.SetCustname(customer_data[0]);
 	cust.SetGender(customer_data[1]);
 	cust.Dob(String.valueOf(customer_data[2]));
-	logger.info(customer_data[2]);
-	Thread.sleep(5000);
+	//Thread.sleep(3000);
 	cust.SetAddress(customer_data[3]);
 	cust.SetCity(customer_data[4]);
 	cust.SetState(customer_data[5]);
 	cust.SetPin(customer_data[6]);
 	cust.SetMobileno(customer_data[7]);
-	cust.SetEmail(customer_data[8]);
-	cust.SetPassword(customer_data[9]);
-	
+	cust.SetEmail(RandomString.make(8)+"@gmail.com");
+	cust.SetPassword(customer_data[8]);
+	logger.info("Credentials are entered");
+
 	cust.Clicksubmit();
-		
+	logger.info("submit button is clicked");
+
 		if(driver.getPageSource().contains("Customer Registered Successfully!!!")) {
 			
 			Assert.assertTrue(true);
-			cust.Clicknewcustomer();
+			logger.info("test is passed");
+			driver.switchTo().defaultContent();
 			
 			
 		}
 		else {
-			
+		
             Assert.assertTrue(false);
-            cust.Clicknewcustomer();
+			logger.info("test is failed");
+            driver.switchTo().defaultContent();
 			
 			
 		}
@@ -97,6 +107,7 @@ public class TC_NewCustomerDDT_003 extends BaseClass{
 			for(int j=0; j<cellcount;j++) {
 				
 				custdata[i-1][j]=XLUtils.getCellData(path, "sheet1", i, j);
+
 			}
 		}
 		return custdata;

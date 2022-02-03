@@ -27,7 +27,17 @@ public class TC_LoginTest_001 extends BaseClass {
 		lp.Clicklogin();
 		logger.info("submit button is clicked");
 		
-		Assert.assertEquals(driver.getTitle(), "Guru99 Bank Manager HomePage44");
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+			Assert.assertTrue(true);
+			logger.info("test is passed");
+
+		}
+		else {
+			Assert.assertTrue(false);
+			logger.info("test failed");
+
+
+		}
 		
 	}
 }
