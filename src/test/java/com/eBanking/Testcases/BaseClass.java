@@ -5,7 +5,6 @@ package com.eBanking.Testcases;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -13,7 +12,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -48,12 +46,12 @@ public class BaseClass {
 		}
 		
 		else {
-			System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
-			 ChromeOptions opt=new ChromeOptions();
-			 opt.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
-			 driver = new ChromeDriver(opt);
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\sabre\\work\\chromedriver.exe");
+		//	System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
+			 driver = new ChromeDriver();
 		}
-		
+		System.out.println(baseurl);
+
 		driver.get(baseurl);
 		 //driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
