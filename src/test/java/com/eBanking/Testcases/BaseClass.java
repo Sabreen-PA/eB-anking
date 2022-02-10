@@ -46,8 +46,8 @@ public class BaseClass {
 		}
 		
 		else {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\sabre\\work\\chromedriver.exe");
-		//	System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sabre\\work\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
 			 driver = new ChromeDriver();
 		}
 		System.out.println(baseurl);

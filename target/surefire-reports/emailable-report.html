@@ -9,10 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">eBanking</th></tr>
-<tr><td><a href="#t0">eBanking Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,957</td><td></td><td></td></tr>
+<tr><td><a href="#t0">eBanking Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,681</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.eBanking.Testcases.TC_LoginTest_001</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1644453200207</td><td rowspan="1">972</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">eBanking Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.eBanking.Testcases.TC_NewCustomerDDT_003</td><td><a href="#m0">NewCustomerDDT</a></td><td rowspan="1">1644509640524</td><td rowspan="1">1161</td></tr><tr><th colspan="4">eBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.eBanking.Testcases.TC_LoginTest_001</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1644509628605</td><td rowspan="1">961</td></tr><tr class="passedodd"><td rowspan="3">com.eBanking.Testcases.TC_NewCustomerDDT_003</td><td><a href="#m2">NewCustomerDDT</a></td><td rowspan="3">1644509642158</td><td rowspan="3">1653</td></tr><tr class="passedodd"><td><a href="#m3">NewCustomerDDT</a></td></tr><tr class="passedodd"><td><a href="#m4">NewCustomerDDT</a></td></tr></tbody>
 </table>
-<h2>eBanking Test</h2><h3 id="m0">com.eBanking.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>eBanking Test</h2><h3 id="m0">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Ruz, M, 06/16/2017, 123 F Street TX, Dallas, Texas, 213000, 1235674123, ruz1]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=98.0.4758.82): Customer could not be added !!
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-A6AT5CE0&apos;, ip: &apos;192.168.0.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b28cb4347fd09239f23641e228c5fc92, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52860/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b28cb4347fd09239f23641e228c5fc92
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:411)
+	at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.eBanking.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Sabri, F, 12/23/1990, 67 T nagar Chennai, Chennai, Tamil Nadu, 682006, 1234890789, sabri12]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Sabreen, F, 05/29/1992, 45 s street MD, Baltimore, MD, 210300, 1234567890, sab1]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.eBanking.Testcases.TC_NewCustomerDDT_003#NewCustomerDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Ajish, M, 01/13/1986, 13 q Street CA, Los Angels, CA, 210310, 1234987612, aji1]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

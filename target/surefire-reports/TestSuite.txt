@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.409 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.517 s <<< FAILURE! - in TestSuite
+com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT[[Ljava.lang.String;@581b1c08](3)  Time elapsed: 1.629 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=98.0.4758.82): Customer could not be added !!
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-A6AT5CE0', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b28cb4347fd09239f23641e228c5fc92, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\sabre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52860/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b28cb4347fd09239f23641e228c5fc92
+	at com.eBanking.Testcases.TC_NewCustomerDDT_003.NewCustomerDDT(TC_NewCustomerDDT_003.java:77)
+
