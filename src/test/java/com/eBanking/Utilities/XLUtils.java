@@ -61,7 +61,7 @@ public class XLUtils {
 		
 	}
 	public static void setCellData(String xlfile, String xlsheet,int rownum, int cellnum,String data) throws IOException {
-		
+		System.out.println(data);
 		fi=new FileInputStream(xlfile);
 		wb=new XSSFWorkbook(fi);
 		ws=wb.getSheet(xlsheet);

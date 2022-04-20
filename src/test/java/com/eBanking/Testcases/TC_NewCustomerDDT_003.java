@@ -39,7 +39,7 @@ public class TC_NewCustomerDDT_003 extends BaseClass{
 	}
 	
 	@Test(dataProvider="customerdata")
-	public void NewCustomerDDT(String[] customer_data) throws InterruptedException{
+	public void NewCustomerDDT(String[] customer_data) throws InterruptedException, IOException{
 					
     NewCustomer cust=new NewCustomer(driver);
 	
@@ -73,11 +73,14 @@ cust.Clicknewcustomer();
 
 	cust.Clicksubmit();
 	logger.info("submit button is clicked");
-
+	
 		if(driver.getPageSource().contains("Customer Registered Successfully!!!")) {
 			
 			Assert.assertTrue(true);
 			logger.info("test is passed");
+			String custid=cust.Getcustid();
+			int testnumber=Integer.parseInt(customer_data[9]);
+		XLUtils.setCellData(System.getProperty("user.dir")+"\\src\\test\\java\\com\\eBanking\\Testdata\\Customerdata.xlsx","sheet1",testnumber,9,custid);
 			driver.switchTo().defaultContent();
 			
 			
@@ -106,11 +109,12 @@ cust.Clicknewcustomer();
 		
 		for(int i=1; i<=rowcount;i++) {
 			
-			for(int j=0; j<cellcount;j++) {
+			for(int j=0; j<cellcount-1;j++) {
 				
 				custdata[i-1][j]=XLUtils.getCellData(path, "sheet1", i, j);
 
 			}
+			custdata[i-1][cellcount-1]=String.valueOf(i);
 		}
 		return custdata;
 	}

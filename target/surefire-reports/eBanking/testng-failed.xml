@@ -12,7 +12,7 @@
           <include name="teardown"/>
           <include name="login"/>
           <include name="setup"/>
-          <include name="NewCustomerDDT" invocation-numbers="2"/>
+          <include name="NewCustomerDDT" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- com.eBanking.Testcases.TC_NewCustomerDDT_003 -->
     </classes>

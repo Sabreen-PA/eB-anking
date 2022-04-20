@@ -60,6 +60,7 @@ public class Reporting extends TestListenerAdapter {
 			loggertest.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 try {
 	BaseClass.CaptureScreen(tr.getName()+ tr.getStartMillis())	;
+	
 } catch (IOException e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();

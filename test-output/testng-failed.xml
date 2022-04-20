@@ -5,15 +5,15 @@
     <listener class-name="com.eBanking.Utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="eBanking Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.eBanking.Testcases.TC_LoginTest_001">
+      <class name="com.eBanking.Testcases.TC_LoginDDT_002">
         <methods>
           <include name="teardown"/>
-          <include name="loginTest"/>
           <include name="setup"/>
+          <include name="loginDDTTest" invocation-numbers="1 2 3 4"/>
         </methods>
-      </class> <!-- com.eBanking.Testcases.TC_LoginTest_001 -->
+      </class> <!-- com.eBanking.Testcases.TC_LoginDDT_002 -->
     </classes>
   </test> <!-- eBanking Test(failed) -->
 </suite> <!-- Failed suite [eBanking] -->

@@ -1,0 +1,8 @@
+variable
+we can and should use them to store anything that we want to refer to at any point in our code, whether we know what their value should be or not.
+
+funtions
+set of instructons repeatedly used.
+types of functions: a function that returns a value and doesn't.
+
+Argument:any value that you give a function when you call it.

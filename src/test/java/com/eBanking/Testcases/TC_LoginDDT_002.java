@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.eBanking.Pageobjects.LoginPage;
 import com.eBanking.Utilities.XLUtils;
-import com.eBanking.Testcases.BaseClass;
+
 
 public class TC_LoginDDT_002 extends BaseClass{
 	

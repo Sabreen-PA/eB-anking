@@ -50,7 +50,6 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
 			 driver = new ChromeDriver();
 		}
-		System.out.println(baseurl);
 
 		driver.get(baseurl);
 		 //driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
@@ -68,6 +67,8 @@ public class BaseClass {
 		System.out.println("Screenshot is taken");
 		
 	}
+	
+	
 	@AfterClass
 	public void teardown() {
 	driver.quit();

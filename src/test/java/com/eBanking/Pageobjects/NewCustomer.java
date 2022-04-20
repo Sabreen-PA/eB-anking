@@ -56,6 +56,8 @@ public class NewCustomer {
 	@FindBy(xpath="/html/body/div[3]/div/ul/li[2]/a")
 	WebElement newcustomer;
 	
+	@FindBy(xpath="//*[@id=\"customer\"]/tbody/tr[4]/td[2]")
+	WebElement custid;
 	
 	public void SetCustname(String custname) {
 		customername.sendKeys(custname);
@@ -121,6 +123,11 @@ public class NewCustomer {
 
 	public void Clicknewcustomer() {
 	newcustomer.click();
-	}	
-
+	}
+	
+	public String Getcustid() {
+		
+		return custid.getText();
+		
+	}
 }
